@@ -1,0 +1,510 @@
+{
+"categories": [
+{
+"id": "cat-smartphones",
+"name": "Smartphones",
+"slug": "smartphones",
+"description": "Latest Android and iOS phones",
+"image": "https://picsum.photos/seed/cat-smartphones/1200/400",
+"order": 1
+},
+{
+"id": "cat-laptops",
+"name": "Laptops",
+"slug": "laptops",
+"description": "Thin-and-light, gaming, and business laptops",
+"image": "https://picsum.photos/seed/cat-laptops/1200/400",
+"order": 2
+},
+{
+"id": "cat-headphones",
+"name": "Headphones",
+"slug": "headphones",
+"description": "Over-ear, on-ear, and true wireless earbuds",
+"image": "https://picsum.photos/seed/cat-headphones/1200/400",
+"order": 3
+}
+],
+"products": [
+{
+"id": "p-s-001",
+"categoryId": "cat-smartphones",
+"sku": "PHN-SAM-S24-128BLK",
+"name": "Samsung Galaxy S24",
+"brand": "Samsung",
+"model": "S24",
+"thumbnail": "https://picsum.photos/seed/s24/400/300",
+"images": [
+"https://picsum.photos/seed/s24a/800/600",
+"https://picsum.photos/seed/s24b/800/600"
+],
+"price": { "currency": "INR", "amount": 69999 },
+"listPrice": { "currency": "INR", "amount": 74999 },
+"rating": 4.6,
+"reviewsCount": 842,
+"badges": ["Bestseller"],
+"inStock": true,
+"stock": 34,
+"colors": ["Black", "Violet"],
+"specs": {
+"storage": "128 GB",
+"ram": "8 GB",
+"display": "6.2\" AMOLED 120Hz",
+"camera": "50MP triple",
+"battery": "4000 mAh",
+"os": "Android 14"
+},
+"warrantyMonths": 12,
+"releaseDate": "2024-02-10",
+"shipping": { "freeShipping": true, "estDays": "2-4" },
+"tags": ["android", "5g"]
+},
+{
+"id": "p-s-002",
+"categoryId": "cat-smartphones",
+"sku": "PHN-APL-IP15-128BLU",
+"name": "Apple iPhone 15",
+"brand": "Apple",
+"model": "iPhone 15",
+"thumbnail": "https://picsum.photos/seed/ip15/400/300",
+"images": [
+"https://picsum.photos/seed/ip15a/800/600",
+"https://picsum.photos/seed/ip15b/800/600"
+],
+"price": { "currency": "INR", "amount": 73999 },
+"listPrice": { "currency": "INR", "amount": 79999 },
+"rating": 4.7,
+"reviewsCount": 1293,
+"badges": ["Popular"],
+"inStock": true,
+"stock": 22,
+"colors": ["Blue", "Pink"],
+"specs": {
+"storage": "128 GB",
+"ram": "6 GB",
+"display": "6.1\" OLED",
+"camera": "48MP dual",
+"battery": "3349 mAh",
+"os": "iOS 17"
+},
+"warrantyMonths": 12,
+"releaseDate": "2023-09-22",
+"shipping": { "freeShipping": true, "estDays": "3-5" },
+"tags": ["ios", "5g"]
+},
+{
+"id": "p-s-003",
+"categoryId": "cat-smartphones",
+"sku": "PHN-GGL-PX8-128GRY",
+"name": "Google Pixel 8",
+"brand": "Google",
+"model": "Pixel 8",
+"thumbnail": "https://picsum.photos/seed/px8/400/300",
+"images": [
+"https://picsum.photos/seed/px8a/800/600",
+"https://picsum.photos/seed/px8b/800/600"
+],
+"price": { "currency": "INR", "amount": 62999 },
+"listPrice": { "currency": "INR", "amount": 69999 },
+"rating": 4.5,
+"reviewsCount": 514,
+"badges": ["Editor’s Choice"],
+"inStock": true,
+"stock": 15,
+"colors": ["Obsidian", "Hazel"],
+"specs": {
+"storage": "128 GB",
+"ram": "8 GB",
+"display": "6.2\" OLED 120Hz",
+"camera": "50MP dual",
+"battery": "4575 mAh",
+"os": "Android 14"
+},
+"warrantyMonths": 12,
+"releaseDate": "2023-10-12",
+"shipping": { "freeShipping": false, "estDays": "4-6" },
+"tags": ["android", "5g"]
+},
+{
+"id": "p-s-004",
+"categoryId": "cat-smartphones",
+"sku": "PHN-ONE-12R-256BLU",
+"name": "OnePlus 12R",
+"brand": "OnePlus",
+"model": "12R",
+"thumbnail": "https://picsum.photos/seed/12r/400/300",
+"images": [
+"https://picsum.photos/seed/12ra/800/600",
+"https://picsum.photos/seed/12rb/800/600"
+],
+"price": { "currency": "INR", "amount": 45999 },
+"listPrice": { "currency": "INR", "amount": 49999 },
+"rating": 4.4,
+"reviewsCount": 678,
+"badges": ["Value Pick"],
+"inStock": true,
+"stock": 41,
+"colors": ["Blue", "Iron Gray"],
+"specs": {
+"storage": "256 GB",
+"ram": "12 GB",
+"display": "6.78\" AMOLED 120Hz",
+"camera": "50MP triple",
+"battery": "5500 mAh",
+"os": "Android 14"
+},
+"warrantyMonths": 12,
+"releaseDate": "2024-01-23",
+"shipping": { "freeShipping": true, "estDays": "2-3" },
+"tags": ["android", "gaming"]
+},
+{
+"id": "p-s-005",
+"categoryId": "cat-smartphones",
+"sku": "PHN-RED-NOTE13P-256GRN",
+"name": "Redmi Note 13 Pro",
+"brand": "Xiaomi",
+"model": "Note 13 Pro",
+"thumbnail": "https://picsum.photos/seed/rn13/400/300",
+"images": [
+"https://picsum.photos/seed/rn13a/800/600",
+"https://picsum.photos/seed/rn13b/800/600"
+],
+"price": { "currency": "INR", "amount": 25999 },
+"listPrice": { "currency": "INR", "amount": 28999 },
+"rating": 4.3,
+"reviewsCount": 911,
+"badges": ["Budget"],
+"inStock": true,
+"stock": 73,
+"colors": ["Forest Green", "Black"],
+"specs": {
+"storage": "256 GB",
+"ram": "8 GB",
+"display": "6.67\" AMOLED 120Hz",
+"camera": "200MP triple",
+"battery": "5100 mAh",
+"os": "Android 14"
+},
+"warrantyMonths": 12,
+"releaseDate": "2024-03-05",
+"shipping": { "freeShipping": false, "estDays": "3-6" },
+"tags": ["android", "budget"]
+},
+{
+"id": "p-l-001",
+"categoryId": "cat-laptops",
+"sku": "LTP-APL-MBA13-M3-8_256-SLV",
+"name": "MacBook Air 13 (M3)",
+"brand": "Apple",
+"model": "Air 13 M3",
+"thumbnail": "https://picsum.photos/seed/mba13/400/300",
+"images": [
+"https://picsum.photos/seed/mba13a/800/600",
+"https://picsum.photos/seed/mba13b/800/600"
+],
+"price": { "currency": "INR", "amount": 109900 },
+"listPrice": { "currency": "INR", "amount": 119900 },
+"rating": 4.8,
+"reviewsCount": 2041,
+"badges": ["Bestseller"],
+"inStock": true,
+"stock": 19,
+"specs": {
+"cpu": "Apple M3",
+"ram": "8 GB",
+"storage": "256 GB SSD",
+"display": "13.6\" Liquid Retina",
+"weight": "1.24 kg",
+"os": "macOS"
+},
+"warrantyMonths": 12,
+"releaseDate": "2024-03-15",
+"shipping": { "freeShipping": true, "estDays": "2-4" },
+"tags": ["ultrabook", "student"]
+},
+{
+"id": "p-l-002",
+"categoryId": "cat-laptops",
+"sku": "LTP-DEL-XPS13-16_512",
+"name": "Dell XPS 13",
+"brand": "Dell",
+"model": "XPS 13 9340",
+"thumbnail": "https://picsum.photos/seed/xps13/400/300",
+"images": [
+"https://picsum.photos/seed/xps13a/800/600",
+"https://picsum.photos/seed/xps13b/800/600"
+],
+"price": { "currency": "INR", "amount": 134990 },
+"listPrice": { "currency": "INR", "amount": 144990 },
+"rating": 4.6,
+"reviewsCount": 617,
+"badges": ["Premium"],
+"inStock": true,
+"stock": 11,
+"specs": {
+"cpu": "Intel Core Ultra 7",
+"ram": "16 GB",
+"storage": "512 GB SSD",
+"display": "13.4\" OLED",
+"weight": "1.19 kg",
+"os": "Windows 11"
+},
+"warrantyMonths": 12,
+"releaseDate": "2024-06-01",
+"shipping": { "freeShipping": true, "estDays": "3-5" },
+"tags": ["ultrabook", "creator"]
+},
+{
+"id": "p-l-003",
+"categoryId": "cat-laptops",
+"sku": "LTP-LNV-LEG5-16_1TB-RTX4060",
+"name": "Lenovo Legion 5",
+"brand": "Lenovo",
+"model": "Legion 5",
+"thumbnail": "https://picsum.photos/seed/legion5/400/300",
+"images": [
+"https://picsum.photos/seed/legion5a/800/600",
+"https://picsum.photos/seed/legion5b/800/600"
+],
+"price": { "currency": "INR", "amount": 124990 },
+"listPrice": { "currency": "INR", "amount": 139990 },
+"rating": 4.5,
+"reviewsCount": 352,
+"badges": ["Gaming"],
+"inStock": true,
+"stock": 27,
+"specs": {
+"cpu": "AMD Ryzen 7 7840H",
+"ram": "16 GB",
+"storage": "1 TB SSD",
+"gpu": "NVIDIA RTX 4060",
+"display": "15.6\" 165Hz",
+"os": "Windows 11"
+},
+"warrantyMonths": 12,
+"releaseDate": "2024-02-01",
+"shipping": { "freeShipping": false, "estDays": "4-7" },
+"tags": ["gaming", "performance"]
+},
+{
+"id": "p-l-004",
+"categoryId": "cat-laptops",
+"sku": "LTP-HP-ENVYx360-16_512",
+"name": "HP Envy x360 14",
+"brand": "HP",
+"model": "Envy x360 14",
+"thumbnail": "https://picsum.photos/seed/envyx360/400/300",
+"images": [
+"https://picsum.photos/seed/envyx360a/800/600",
+"https://picsum.photos/seed/envyx360b/800/600"
+],
+"price": { "currency": "INR", "amount": 94990 },
+"listPrice": { "currency": "INR", "amount": 99990 },
+"rating": 4.3,
+"reviewsCount": 188,
+"badges": ["2-in-1"],
+"inStock": true,
+"stock": 25,
+"specs": {
+"cpu": "Intel Core Ultra 5",
+"ram": "16 GB",
+"storage": "512 GB SSD",
+"display": "14\" OLED touch",
+"weight": "1.4 kg",
+"os": "Windows 11"
+},
+"warrantyMonths": 12,
+"releaseDate": "2024-05-10",
+"shipping": { "freeShipping": true, "estDays": "2-4" },
+"tags": ["convertible", "touch"]
+},
+{
+"id": "p-l-005",
+"categoryId": "cat-laptops",
+"sku": "LTP-ASU-ZB14-8_512",
+"name": "ASUS Zenbook 14",
+"brand": "ASUS",
+"model": "Zenbook 14",
+"thumbnail": "https://picsum.photos/seed/zen14/400/300",
+"images": [
+"https://picsum.photos/seed/zen14a/800/600",
+"https://picsum.photos/seed/zen14b/800/600"
+],
+"price": { "currency": "INR", "amount": 85990 },
+"listPrice": { "currency": "INR", "amount": 94990 },
+"rating": 4.4,
+"reviewsCount": 271,
+"badges": ["Lightweight"],
+"inStock": true,
+"stock": 30,
+"specs": {
+"cpu": "AMD Ryzen 7 7840U",
+"ram": "16 GB",
+"storage": "512 GB SSD",
+"display": "14\" 2.8K OLED",
+"weight": "1.17 kg",
+"os": "Windows 11"
+},
+"warrantyMonths": 12,
+"releaseDate": "2024-04-20",
+"shipping": { "freeShipping": false, "estDays": "3-6" },
+"tags": ["ultrabook", "battery-life"]
+},
+{
+"id": "p-h-001",
+"categoryId": "cat-headphones",
+"sku": "HPH-SNY-WH1000XM5-BLK",
+"name": "Sony WH-1000XM5",
+"brand": "Sony",
+"model": "WH-1000XM5",
+"thumbnail": "https://picsum.photos/seed/xm5/400/300",
+"images": [
+"https://picsum.photos/seed/xm5a/800/600",
+"https://picsum.photos/seed/xm5b/800/600"
+],
+"price": { "currency": "INR", "amount": 29990 },
+"listPrice": { "currency": "INR", "amount": 34990 },
+"rating": 4.7,
+"reviewsCount": 4021,
+"badges": ["Top Rated"],
+"inStock": true,
+"stock": 58,
+"specs": {
+"type": "Over-Ear",
+"anc": true,
+"batteryLife": "30 hrs",
+"charging": "USB-C",
+"codec": "LDAC, AAC, SBC"
+},
+"warrantyMonths": 12,
+"releaseDate": "2023-05-20",
+"shipping": { "freeShipping": true, "estDays": "2-3" },
+"tags": ["anc", "premium"]
+},
+{
+"id": "p-h-002",
+"categoryId": "cat-headphones",
+"sku": "HPH-APP-AIRPODS-PRO2",
+"name": "AirPods Pro (2nd Gen)",
+"brand": "Apple",
+"model": "AirPods Pro 2",
+"thumbnail": "https://picsum.photos/seed/app-pro2/400/300",
+"images": [
+"https://picsum.photos/seed/app-pro2a/800/600",
+"https://picsum.photos/seed/app-pro2b/800/600"
+],
+"price": { "currency": "INR", "amount": 23990 },
+"listPrice": { "currency": "INR", "amount": 26990 },
+"rating": 4.6,
+"reviewsCount": 5112,
+"badges": ["Popular"],
+"inStock": true,
+"stock": 120,
+"specs": {
+"type": "In-Ear (TWS)",
+"anc": true,
+"batteryLife": "6 hrs (buds)",
+"charging": "USB-C/MagSafe",
+"codec": "AAC, SBC"
+},
+"warrantyMonths": 12,
+"releaseDate": "2023-09-22",
+"shipping": { "freeShipping": true, "estDays": "2-4" },
+"tags": ["tws", "ios"]
+},
+{
+"id": "p-h-003",
+"categoryId": "cat-headphones",
+"sku": "HPH-BOI-QC-U",
+"name": "Bose QuietComfort",
+"brand": "Bose",
+"model": "QuietComfort",
+"thumbnail": "https://picsum.photos/seed/qc/400/300",
+"images": [
+"https://picsum.photos/seed/qca/800/600",
+"https://picsum.photos/seed/qcb/800/600"
+],
+"price": { "currency": "INR", "amount": 28990 },
+"listPrice": { "currency": "INR", "amount": 32990 },
+"rating": 4.5,
+"reviewsCount": 1732,
+"badges": ["Comfort"],
+"inStock": true,
+"stock": 44,
+"specs": {
+"type": "Over-Ear",
+"anc": true,
+"batteryLife": "24 hrs",
+"charging": "USB-C",
+"codec": "AAC, SBC"
+},
+"warrantyMonths": 12,
+"releaseDate": "2023-10-05",
+"shipping": { "freeShipping": false, "estDays": "3-6" },
+"tags": ["anc", "travel"]
+},
+{
+"id": "p-h-004",
+"categoryId": "cat-headphones",
+"sku": "HPH-JBL-LIVEPRO2",
+"name": "JBL Live Pro 2",
+"brand": "JBL",
+"model": "Live Pro 2",
+"thumbnail": "https://picsum.photos/seed/jbllp2/400/300",
+"images": [
+"https://picsum.photos/seed/jbllp2a/800/600",
+"https://picsum.photos/seed/jbllp2b/800/600"
+],
+"price": { "currency": "INR", "amount": 8999 },
+"listPrice": { "currency": "INR", "amount": 12999 },
+"rating": 4.2,
+"reviewsCount": 988,
+"badges": ["Budget"],
+"inStock": true,
+"stock": 200,
+"specs": {
+"type": "In-Ear (TWS)",
+"anc": true,
+"batteryLife": "8 hrs (buds)",
+"charging": "USB-C",
+"codec": "AAC, SBC"
+},
+"warrantyMonths": 12,
+"releaseDate": "2022-11-15",
+"shipping": { "freeShipping": false, "estDays": "4-7" },
+"tags": ["tws", "value"]
+},
+{
+"id": "p-h-005",
+"categoryId": "cat-headphones",
+"sku": "HPH-SEN-HD560S",
+"name": "Sennheiser HD 560S",
+"brand": "Sennheiser",
+"model": "HD 560S",
+"thumbnail": "https://picsum.photos/seed/hd560s/400/300",
+"images": [
+"https://picsum.photos/seed/hd560sa/800/600",
+"https://picsum.photos/seed/hd560sb/800/600"
+],
+"price": { "currency": "INR", "amount": 17990 },
+"listPrice": { "currency": "INR", "amount": 19990 },
+"rating": 4.4,
+"reviewsCount": 621,
+"badges": ["Audiophile"],
+"inStock": true,
+"stock": 36,
+"specs": {
+"type": "Over-Ear (Open-Back)",
+"anc": false,
+"batteryLife": "N/A (wired)",
+"charging": "N/A",
+"codec": "N/A (wired)"
+},
+"warrantyMonths": 24,
+"releaseDate": "2021-03-10",
+"shipping": { "freeShipping": false, "estDays": "3-6" },
+"tags": ["wired", "studio"]
+}
+]
+}
