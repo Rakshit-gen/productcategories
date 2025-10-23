@@ -47,7 +47,7 @@ const ProductCarousels = () => {
   };
 
   const formatPrice = (priceObj) => {
-    return `₹${(priceObj.amount / 100).toLocaleString('en-IN')}`;
+    return `₹${(priceObj.amount).toLocaleString('en-IN')}`;
   };
 
   const calculateDiscount = (price, listPrice) => {
